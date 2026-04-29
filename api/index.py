@@ -2,8 +2,10 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import random
 
-app = Flask(__name__, template_folder='../templates', static_folder='../static')
-CORS(app)
+import os
+app = Flask(__name__, 
+            template_folder=os.path.join(os.path.dirname(__file__), 'templates'),
+            static_folder=os.path.join(os.path.dirname(__file__), 'static'))
 
 # Sample articles database
 sample_articles = {
