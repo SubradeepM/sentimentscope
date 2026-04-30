@@ -26,7 +26,7 @@
 
 ## 🚀 Live Demo
 
-**[Try SentimentScope Now](https://sentimentscope.vercel.app)**
+**[Try SentimentScope Now](https://subradeepm.github.io/sentimentscope/)**
 
 ## 💻 Run Locally
 
